@@ -10,9 +10,9 @@ namespace SnakeAndLadderProblem
 
             //StartGame.StartTheGame();
 
-            RollingDice.DiceRoll();
+            //RollingDice.DiceRoll();
 
-            //Options.ChooseOptions();
+            Options.ChooseOptions();
 
             ////forGamePlay
             //Console.WriteLine("Board size?");
