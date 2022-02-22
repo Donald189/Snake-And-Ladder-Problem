@@ -36,12 +36,12 @@ namespace SnakeAndLadderProblem
             bool isSnakeCellLeft = true;
             while (isSnakeCellLeft)
             {
-                Console.WriteLine("Want to define a snake (~~~~~~~~~@) y/n");
+                Console.WriteLine("Do you want to Add Snakes y/n");
                 if (Console.ReadLine().ToLower() == "y")
                 {
-                    Console.WriteLine("Snake cell number");
+                    Console.WriteLine("Snake Mouth cell number");
                     int snakeCellNumber = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Penalty cell number");
+                    Console.WriteLine("Snake Tail cell number");
                     int penaltyCellNumber = Convert.ToInt32(Console.ReadLine());
                     SnakeCell s = new SnakeCell();
                     s.CellNumber = snakeCellNumber;
@@ -57,7 +57,7 @@ namespace SnakeAndLadderProblem
             bool isLadderCellLeft = true;
             while (isLadderCellLeft)
             {
-                Console.WriteLine("Want to define a ladder (|-|-|-|-|-|-|) y/n");
+                Console.WriteLine("Do you want to Add Ladders y/n");
                 if (Console.ReadLine().ToLower() == "y")
                 {
                     Console.WriteLine("Ladder cell number");
