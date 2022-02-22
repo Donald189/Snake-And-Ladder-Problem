@@ -8,7 +8,7 @@ namespace SnakeAndLadderProblem
         {
             Console.WriteLine("Welcome to Snake And Ladder\n");
 
-            //StartGame.StartTheGame();
+            StartGame.StartTheGame();
 
             //RollingDice.DiceRoll();
 
